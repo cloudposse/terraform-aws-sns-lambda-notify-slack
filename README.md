@@ -26,8 +26,6 @@ module "notify_slack" {
   name              = "app"
   namespace         = "eg"
   stage             = "staging"
-  create_sns_topic  = false
-  sns_topic_name    = "${module.ecs_service_alarms.sns_topic_name}"
   slack_webhook_url = "https://hooks.slack.com/services/AAAAAAAA/BBBBBBBB/CCCCCCC"
   slack_channel     = "aws-services"
   slack_username    = "reporter"
