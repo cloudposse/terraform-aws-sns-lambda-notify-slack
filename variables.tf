@@ -31,39 +31,47 @@ variable "tags" {
   default     = {}
 }
 
-variable "enable" {
+variable "enabled" {
+  type        = "string"
   description = "Whether to create all resources"
-  default     = true
+  default     = "true"
 }
 
 variable "create_sns_topic" {
+  type        = "string"
   description = "Whether to create new SNS topic"
-  default     = true
+  default     = "true"
 }
 
 variable "create_with_kms_key" {
+  type        = "string"
   description = "Whether to create resources with KMS encryption"
-  default     = false
+  default     = "false"
 }
 
 variable "slack_webhook_url" {
+  type        = "string"
   description = "The URL of Slack webhook"
 }
 
 variable "slack_channel" {
+  type        = "string"
   description = "The name of the channel in Slack for notifications"
 }
 
 variable "slack_username" {
+  type        = "string"
   description = "The username that will appear on Slack messages"
 }
 
 variable "slack_emoji" {
+  type        = "string"
   description = "A custom emoji that will appear on Slack messages"
   default     = ":aws:"
 }
 
 variable "kms_key_arn" {
+  type        = "string"
   description = "ARN of the KMS key used for decrypting slack webhook url"
   default     = ""
 }

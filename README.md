@@ -46,7 +46,7 @@ module "notify_slack" {
 | create_sns_topic | Whether to create new SNS topic | string | `true` | no |
 | create_with_kms_key | Whether to create resources with KMS encryption | string | `false` | no |
 | delimiter | The delimiter to be used in labels. | string | `-` | no |
-| enable | Whether to create all resources | string | `true` | no |
+| enabled | Whether to create all resources | string | `true` | no |
 | kms_key_arn | ARN of the KMS key used for decrypting slack webhook url | string | `` | no |
 | name | Name (unique identifier for app or service) | string | - | yes |
 | namespace | Namespace (e.g. `cp` or `cloudposse`) | string | - | yes |
