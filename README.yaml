@@ -64,7 +64,17 @@ description: |-
 # How to use this project
 usage: |-
   ```hcl
-
+  module "notify_slack" {
+    source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.1.0"
+    name              = "app"
+    namespace         = "eg"
+    stage             = "staging"
+    create_sns_topic  = false
+    sns_topic_name    = "${module.ecs_service_alarms.sns_topic_name}"
+    slack_webhook_url = "https://hooks.slack.com/services/AAAAAAAA/BBBBBBBB/CCCCCCC"
+    slack_channel     = "aws-services"
+    slack_username    = "reporter"
+  }
   ```
 
 # Example usage
