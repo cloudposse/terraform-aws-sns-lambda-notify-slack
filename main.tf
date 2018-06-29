@@ -1,8 +1,8 @@
 # Normalize boolean variables for https://github.com/terraform-aws-modules/terraform-aws-notify-slack
 locals {
-  enabled             = "${var.enabled == "true" ? true : false}"
-  create_sns_topic    = "${var.create_sns_topic == "true" ? true : false}"
-  create_with_kms_key = "${var.create_with_kms_key == "true" ? true : false}"
+  enabled             = "${var.enabled == "true" ? 1 : 0}"
+  create_sns_topic    = "${var.create_sns_topic == "true" ? 1 : 0}"
+  create_with_kms_key = "${var.create_with_kms_key == "true" ? 1 : 0}"
 }
 
 module "default_label" {
