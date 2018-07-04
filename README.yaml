@@ -89,14 +89,8 @@ include:
 # Contributors to this project
 contributors:
 - name: "Anton Babenko"
-  homepage: "https://github.com/antonbabenko"
-  avatar: "https://avatars3.githubusercontent.com/u/393243?s=144&v=4"
   github: "antonbabenko"
 - name: "Erik Osterman"
-  homepage: "https://github.com/osterman"
-  avatar: "http://s.gravatar.com/avatar/88c480d4f73b813904e00a5695a454cb?s=144"
   github: "osterman"
 - name: "Sarkis Varozian"
-  homepage: "https://github.com/sarkis"
-  avatar: "https://avatars3.githubusercontent.com/u/42673?s=144&v=4"
   github: "sarkis"
