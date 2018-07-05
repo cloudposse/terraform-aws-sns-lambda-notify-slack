@@ -2,7 +2,9 @@
 
 [![Cloud Posse](https://cloudposse.com/logo-300x69.png)](https://cloudposse.com)
 
-# terraform-aws-sns-lambda-notify-slack  [![Build Status](https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?branch=master)](https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack) [![Latest Release](https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg)](https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+# terraform-aws-sns-lambda-notify-slack
+
+ [![Build Status](https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?branch=master)](https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack) [![Latest Release](https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg)](https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 
 
 Terraform module to provision a lambda function that subscribes to SNS and notifies to Slack.
@@ -86,6 +88,8 @@ Work directly with our team of DevOps experts via email, slack, and video confer
 
 We provide *commercial support* for all of our [Open Source][github] projects. As a *Dedicated Support* customer, you have access to our team of subject matter experts at a fraction of the cost of a fulltime engineer. 
 
+[![E-Mail](https://img.shields.io/badge/email-hello@cloudposse.com-blue.svg)](mailto:hello@cloudposse.com)
+
 - **Questions.** We'll use a Shared Slack channel between your team and ours.
 - **Troubleshooting.** We'll help you triage why things aren't working.
 - **Code Reviews.** We'll review your Pull Requests and provide constructive feedback.
@@ -93,6 +97,7 @@ We provide *commercial support* for all of our [Open Source][github] projects. A
 - **Build New Terraform Modules.** We'll develop original modules to provision infrastructure.
 - **Cloud Architecture.** We'll assist with your cloud strategy and design.
 - **Implementation.** We'll provide hands on support to implement our reference architectures. 
+
 
 ## Community Forum
 
@@ -180,10 +185,10 @@ Check out [our other projects][github], [apply for a job][jobs], or [hire us][hi
 |---|---|---|
 
   [antonbabenko_homepage]: https://github.com/antonbabenko
-  [antonbabenko_avatar]: https://avatars3.githubusercontent.com/u/393243?s=144&v=4
+  [antonbabenko_avatar]: https://github.com/antonbabenko.png?size=150
   [osterman_homepage]: https://github.com/osterman
-  [osterman_avatar]: http://s.gravatar.com/avatar/88c480d4f73b813904e00a5695a454cb?s=144
+  [osterman_avatar]: https://github.com/osterman.png?size=150
   [sarkis_homepage]: https://github.com/sarkis
-  [sarkis_avatar]: https://avatars3.githubusercontent.com/u/42673?s=144&v=4
+  [sarkis_avatar]: https://github.com/sarkis.png?size=150
 
 
