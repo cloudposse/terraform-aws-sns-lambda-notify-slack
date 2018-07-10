@@ -23,7 +23,7 @@ badges:
     url: "https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack"
   - name: "Latest Release"
     image: "https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg"
-    url: "https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases"
+    url: "https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest"
   - name: "Slack Community"
     image: "https://slack.cloudposse.com/badge.svg"
     url: "https://slack.cloudposse.com"
