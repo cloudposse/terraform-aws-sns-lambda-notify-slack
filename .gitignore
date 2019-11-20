@@ -10,8 +10,5 @@
 .build-harness
 build-harness
 
-# sensitive files
-*.tfvars
-
 # lambda
 *.zip
