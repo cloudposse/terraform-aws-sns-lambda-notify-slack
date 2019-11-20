@@ -124,6 +124,20 @@ module "notify_slack" {
 | stage | Stage (e.g. `prod`, `dev`, `staging`) | string | `` | no |
 | tags | Map of key-value pairs to use for tags. | map(string) | `<map>` | no |
 
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| lambda_cloudwatch_log_group_arn | The Amazon Resource Name (ARN) specifying the log group |
+| lambda_iam_role_arn | The ARN of the IAM role used by Lambda function |
+| lambda_iam_role_name | The name of the IAM role used by Lambda function |
+| notify_slack_lambda_function_arn | The ARN of the Lambda function |
+| notify_slack_lambda_function_invoke_arn | The ARN to be used for invoking Lambda function from API Gateway |
+| notify_slack_lambda_function_last_modified | The date Lambda function was last modified |
+| notify_slack_lambda_function_name | The name of the Lambda function |
+| notify_slack_lambda_function_version | Latest published version of your Lambda function |
+| slack_topic_arn | The ARN of the SNS topic from which messages will be sent to Slack |
+
 
 
 
