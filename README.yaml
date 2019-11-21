@@ -18,9 +18,9 @@ github_repo: cloudposse/terraform-aws-sns-lambda-notify-slack
 
 # Badges to display
 badges:
-  - name: "Build Status"
-    image: "https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?branch=master"
-    url: "https://travis-ci.org/cloudposse/terraform-aws-sns-lambda-notify-slack"
+  - name: "Codefresh Build Status"
+    image: "https://g.codefresh.io/api/badges/pipeline/cloudposse/terraform-modules%2Fterraform-aws-sns-lambda-notify-slack?type=cf-1"
+    url: "https://g.codefresh.io/public/accounts/cloudposse/pipelines/5dd5aebdb9992a6fa0eedc81"
   - name: "Latest Release"
     image: "https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg"
     url: "https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest"
@@ -66,9 +66,9 @@ usage: |-
   ```hcl
   module "notify_slack" {
     source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.1.0"
-    name              = "app"
     namespace         = "eg"
     stage             = "staging"
+    name              = "app"
     slack_webhook_url = "https://hooks.slack.com/services/AAAAAAAA/BBBBBBBB/CCCCCCC"
     slack_channel     = "aws-services"
     slack_username    = "reporter"
@@ -88,9 +88,11 @@ include:
 
 # Contributors to this project
 contributors:
-- name: "Anton Babenko"
-  github: "antonbabenko"
-- name: "Erik Osterman"
-  github: "osterman"
-- name: "Sarkis Varozian"
-  github: "sarkis"
+  - name: "Anton Babenko"
+    github: "antonbabenko"
+  - name: "Erik Osterman"
+    github: "osterman"
+  - name: "Sarkis Varozian"
+    github: "sarkis"
+  - name: "Andriy Knysh"
+    github: "aknysh"
