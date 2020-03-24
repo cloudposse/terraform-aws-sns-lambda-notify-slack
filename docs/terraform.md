@@ -7,6 +7,7 @@
 | delimiter | The delimiter to be used in labels. | string | `-` | no |
 | enabled | Whether to create all resources | bool | `true` | no |
 | kms_key_arn | ARN of the KMS key used for decrypting slack webhook url | string | `` | no |
+| log_events | Boolean flag to enabled/disable logging of incoming events | bool | `false` | no |
 | name | Name (unique identifier for app or service) | string | - | yes |
 | namespace | Namespace (e.g. `cp` or `cloudposse`) | string | `` | no |
 | slack_channel | The name of the channel in Slack for notifications | string | - | yes |

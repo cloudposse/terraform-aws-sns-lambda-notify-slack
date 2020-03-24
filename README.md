@@ -90,7 +90,7 @@ Instead pin to the release tag (e.g. `?ref=tags/x.y.z`) of one of our [latest re
 
 ```hcl
 module "notify_slack" {
-  source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.1.0"
+  source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.3.0"
   namespace         = "eg"
   stage             = "staging"
   name              = "app"
@@ -114,6 +114,7 @@ module "notify_slack" {
 | delimiter | The delimiter to be used in labels. | string | `-` | no |
 | enabled | Whether to create all resources | bool | `true` | no |
 | kms_key_arn | ARN of the KMS key used for decrypting slack webhook url | string | `` | no |
+| log_events | Boolean flag to enabled/disable logging of incoming events | bool | `false` | no |
 | name | Name (unique identifier for app or service) | string | - | yes |
 | namespace | Namespace (e.g. `cp` or `cloudposse`) | string | `` | no |
 | slack_channel | The name of the channel in Slack for notifications | string | - | yes |
@@ -229,7 +230,7 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 ## Copyright
 
-Copyright © 2017-2019 [Cloud Posse, LLC](https://cpco.io/copyright)
+Copyright © 2017-2020 [Cloud Posse, LLC](https://cpco.io/copyright)
 
 
 
