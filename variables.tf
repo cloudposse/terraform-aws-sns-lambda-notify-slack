@@ -77,3 +77,9 @@ variable "sns_topic_name" {
   description = "Name of the SNS topic to subscribe to."
   default     = ""
 }
+
+variable "log_events" {
+  type        = bool
+  description = "Boolean flag to enabled/disable logging of incoming events"
+  default     = false
+}
