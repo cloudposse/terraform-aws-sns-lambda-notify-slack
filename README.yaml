@@ -65,7 +65,7 @@ description: |-
 usage: |-
   ```hcl
   module "notify_slack" {
-    source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.1.0"
+    source            = "git::https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack?ref=tags/0.3.0"
     namespace         = "eg"
     stage             = "staging"
     name              = "app"
