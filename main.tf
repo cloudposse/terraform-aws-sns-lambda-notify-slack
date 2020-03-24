@@ -9,7 +9,7 @@ module "default_label" {
 }
 
 module "notify_slack" {
-  source               = "git::https://github.com/terraform-aws-modules/terraform-aws-notify-slack?ref=tags/v2.3.0"
+  source               = "git::https://github.com/terraform-aws-modules/terraform-aws-notify-slack?ref=tags/v2.13.0"
   create               = var.enabled
   create_sns_topic     = var.create_sns_topic
   lambda_function_name = module.default_label.id
