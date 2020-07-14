@@ -44,7 +44,7 @@
 
 # terraform-aws-sns-lambda-notify-slack
 
- [![Codefresh Build Status](https://g.codefresh.io/api/badges/pipeline/cloudposse/terraform-modules%2Fterraform-aws-sns-lambda-notify-slack?type=cf-1)](https://g.codefresh.io/public/accounts/cloudposse/pipelines/5dd5aebdb9992a6fa0eedc81) [![Latest Release](https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg)](https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+ [![Latest Release](https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg)](https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 
 
 Terraform module to provision a lambda function that subscribes to SNS and notifies to Slack.
