@@ -1,5 +1,5 @@
 module "default_label" {
-  source     = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.16.0"
+  source     = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.17.0"
   name       = var.name
   namespace  = var.namespace
   stage      = var.stage
@@ -9,7 +9,7 @@ module "default_label" {
 }
 
 module "notify_slack" {
-  source               = "git::https://github.com/terraform-aws-modules/terraform-aws-notify-slack?ref=tags/v2.3.0"
+  source               = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.17.0"
   create               = var.enabled
   create_sns_topic     = var.create_sns_topic
   lambda_function_name = module.default_label.id
