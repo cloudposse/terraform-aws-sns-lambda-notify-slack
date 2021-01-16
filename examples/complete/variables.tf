@@ -3,16 +3,6 @@ variable "region" {
   description = "AWS Region for S3 bucket"
 }
 
-variable "name" {
-  type        = string
-  description = "Name (unique identifier for app or service)"
-}
-
-variable "enabled" {
-  type        = bool
-  description = "Whether to create all resources"
-}
-
 variable "create_sns_topic" {
   type        = bool
   description = "Whether to create new SNS topic"
