@@ -7,7 +7,7 @@ module "default_label" {
 
 module "notify_slack" {
   source               = "terraform-aws-modules/notify-slack/aws"
-  version              = "4.0"
+  version              = "4.11"
   create               = module.this.enabled
   create_sns_topic     = var.create_sns_topic
   lambda_function_name = module.default_label.id
