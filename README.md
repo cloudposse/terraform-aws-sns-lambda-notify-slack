@@ -134,7 +134,7 @@ No provider.
 | Name | Source | Version |
 |------|--------|---------|
 | default_label | cloudposse/label/null | 0.22.1 |
-| notify_slack | terraform-aws-modules/notify-slack/aws | 4.12 |
+| notify_slack | terraform-aws-modules/notify-slack/aws | 4.17 |
 | this | cloudposse/label/null | 0.24.1 |
 
 ## Resources
