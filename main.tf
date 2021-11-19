@@ -1,6 +1,6 @@
 module "default_label" {
   source     = "cloudposse/label/null"
-  version    = "0.22.1"
+  version    = "0.25.0"
   attributes = concat(module.this.attributes, ["default"])
   context    = module.this.context
 }
