@@ -12,3 +12,7 @@ build-harness
 
 # lambda
 *.zip
+
+# MacOS internals
+.DS_Store
+
