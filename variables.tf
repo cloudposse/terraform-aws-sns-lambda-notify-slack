@@ -48,3 +48,9 @@ variable "vpc_security_group_ids" {
   type        = list(string)
   default     = null
 }
+
+variable "lambda_source_path" {
+  description = "The source path of the custom Lambda function"
+  type        = string
+  default     = null
+}

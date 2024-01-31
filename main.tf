@@ -19,4 +19,5 @@ module "notify_slack" {
   sns_topic_name                         = var.sns_topic_name
   lambda_function_vpc_subnet_ids         = var.vpc_subnet_ids
   lambda_function_vpc_security_group_ids = var.vpc_security_group_ids
+  lambda_source_path                     = var.lambda_source_path
 }
