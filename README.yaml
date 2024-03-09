@@ -14,12 +14,17 @@ license: "APACHE2"
 github_repo: cloudposse/terraform-aws-sns-lambda-notify-slack
 # Badges to display
 badges:
-  - name: "Latest Release"
-    image: "https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg"
-    url: "https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest"
-  - name: "Slack Community"
-    image: "https://slack.cloudposse.com/badge.svg"
-    url: "https://slack.cloudposse.com"
+  - name: Latest Release
+    image: https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge
+    url: https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest
+  - name: Last Updated
+    image: https://img.shields.io/github/last-commit/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge
+    url: https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/commits
+  - name: Slack Community
+    image: https://slack.cloudposse.com/for-the-badge.svg
+    url: https://slack.cloudposse.com
+
+# List any related terraform modules that this module may be used with or that this module depends on.
 related:
   - name: "terraform-aws-cloudwatch-logs"
     description: "Terraform Module to Provide a CloudWatch Logs Endpoint"
@@ -69,12 +74,4 @@ usage: |-
 include:
   - "docs/terraform.md"
 # Contributors to this project
-contributors:
-  - name: "Anton Babenko"
-    github: "antonbabenko"
-  - name: "Erik Osterman"
-    github: "osterman"
-  - name: "Sarkis Varozian"
-    github: "sarkis"
-  - name: "Andriy Knysh"
-    github: "aknysh"
+contributors: []
