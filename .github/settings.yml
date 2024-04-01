@@ -1,0 +1,7 @@
+# Upstream changes from _extends are only recognized when modifications are made to this file in the default branch.
+_extends: .github
+repository:
+  name: terraform-aws-sns-lambda-notify-slack
+  description: Terraform module to provision a lambda function that subscribes to SNS and notifies to Slack.
+  homepage: https://cloudposse.com/accelerate
+  topics: terraform, terraform-modules, lambda, slack, sns, aws, cloudwatch, alarms, alerts, escalations, hcl2
