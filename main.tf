@@ -20,4 +20,5 @@ module "notify_slack" {
   lambda_function_vpc_subnet_ids         = var.vpc_subnet_ids
   lambda_function_vpc_security_group_ids = var.vpc_security_group_ids
   lambda_source_path                     = var.lambda_source_path
+  tags                                   = module.this.tags
 }
