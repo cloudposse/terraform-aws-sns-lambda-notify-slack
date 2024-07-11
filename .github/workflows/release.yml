@@ -5,7 +5,10 @@ on:
     types:
       - published
 
-permissions: {}
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
 
 jobs:
   terraform-module:
