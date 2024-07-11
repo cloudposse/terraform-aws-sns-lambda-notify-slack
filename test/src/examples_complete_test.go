@@ -1,6 +1,9 @@
 package test
 
 import (
+	"strings"
+
+	"github.com/gruntwork-io/terratest/modules/random"	
 	"github.com/gruntwork-io/terratest/modules/terraform"
 	"testing"
 )
