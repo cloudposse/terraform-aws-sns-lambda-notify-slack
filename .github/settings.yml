@@ -5,3 +5,4 @@ repository:
   description: Terraform module to provision a lambda function that subscribes to SNS and notifies to Slack.
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-modules, lambda, slack, sns, aws, cloudwatch, alarms, alerts, escalations, hcl2
+
