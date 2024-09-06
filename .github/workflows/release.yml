@@ -6,9 +6,9 @@ on:
       - published
 
 permissions:
+  id-token: write
   contents: write
   pull-requests: write
-  id-token: write
 
 jobs:
   terraform-module:
