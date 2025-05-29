@@ -3,7 +3,7 @@
 <!-- markdownlint-disable -->
 <a href="https://cpco.io/homepage"><img src="https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/blob/main/.github/banner.png?raw=true" alt="Project Banner"/></a><br/>
     <p align="right">
-<a href="https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest"><img src="https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge" alt="Latest Release"/></a><a href="https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/commits"><img src="https://img.shields.io/github/last-commit/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge" alt="Last Updated"/></a><a href="https://slack.cloudposse.com"><img src="https://slack.cloudposse.com/for-the-badge.svg" alt="Slack Community"/></a></p>
+<a href="https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/releases/latest"><img src="https://img.shields.io/github/release/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge" alt="Latest Release"/></a><a href="https://github.com/cloudposse/terraform-aws-sns-lambda-notify-slack/commits"><img src="https://img.shields.io/github/last-commit/cloudposse/terraform-aws-sns-lambda-notify-slack.svg?style=for-the-badge" alt="Last Updated"/></a><a href="https://cloudposse.com/slack"><img src="https://slack.cloudposse.com/for-the-badge.svg" alt="Slack Community"/></a></p>
 <!-- markdownlint-restore -->
 
 <!--
@@ -147,6 +147,11 @@ No resources.
 | <a name="output_notify_slack_lambda_function_version"></a> [notify\_slack\_lambda\_function\_version](#output\_notify\_slack\_lambda\_function\_version) | Latest published version of your Lambda function |
 | <a name="output_slack_topic_arn"></a> [slack\_topic\_arn](#output\_slack\_topic\_arn) | The ARN of the SNS topic from which messages will be sent to Slack |
 <!-- markdownlint-restore -->
+
+
+
+
+
 
 
 ## Related Projects
